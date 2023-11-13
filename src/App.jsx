@@ -44,9 +44,11 @@ function App() {
             </header>
 
             <footer className="pb-24 flex flex-col flex-grow justify-end">
-              <a>
-                Prueba de conduccion
-              </a>
+              <div>
+                <a className=" font-medium px-6 py-2 border-2 rounded-md inline-block">
+                  Prueba de conduccion
+                </a>
+              </div>
             </footer>
 
           </div>
