@@ -45,7 +45,8 @@ function App() {
 
             <footer className="pb-24 flex flex-col flex-grow justify-end">
               <div>
-                <a className=" font-medium px-6 py-2 border-2 rounded-md inline-block">
+                <a className="font-medium px-6 py-2 border-2 rounded-md inline-block
+                 hover:bg-white hover:text-black duration-100 cursor-pointer">
                   Prueba de conduccion
                 </a>
               </div>
