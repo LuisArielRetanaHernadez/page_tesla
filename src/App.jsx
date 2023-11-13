@@ -43,7 +43,7 @@ function App() {
 
             </header>
 
-            <footer className="flex flex-col flex-grow justify-end">
+            <footer className="pb-24 flex flex-col flex-grow justify-end">
               <a>
                 Prueba de conduccion
               </a>
