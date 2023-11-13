@@ -30,8 +30,10 @@ function App() {
         </header>
 
         <section className="w-screen h-screen text-center text-white bg-black relative overflow-hidden">
-          <video autoPlay loop muted src="https://res.cloudinary.com/dqmkovsdy/video/upload/v1699912376/tesla/media/videos/x0x9nksw5hf7ph3aatag.mp4"></video>
-        
+          <div className="h-full absolute top-0 bottom-0">
+            <video className="object-center" autoPlay loop muted src="https://res.cloudinary.com/dqmkovsdy/video/upload/v1699912376/tesla/media/videos/x0x9nksw5hf7ph3aatag.mp4"></video>
+          </div>
+
           <h2>Disfruta de Tesla</h2>
           <p>Programe una prueba de conduccion hoy mismo</p>
 
