@@ -34,12 +34,17 @@ function App() {
             <video className="object-center" autoPlay loop muted src="https://res.cloudinary.com/dqmkovsdy/video/upload/v1699912376/tesla/media/videos/x0x9nksw5hf7ph3aatag.mp4"></video>
           </div>
 
-          <h2>Disfruta de Tesla</h2>
-          <p>Programe una prueba de conduccion hoy mismo</p>
+          <header className="relative z-20">
+            <h2>Disfruta de Tesla</h2>
+            <p>Programe una prueba de conduccion hoy mismo</p>
+          </header>
 
-          <a>
+         <footer className="relative z-20">
+           <a>
             Prueba de conduccion
           </a>
+         </footer>
+         
         </section>
       </mian>
     </>
