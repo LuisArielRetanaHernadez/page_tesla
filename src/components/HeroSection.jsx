@@ -1,7 +1,7 @@
 const HeroSection = () => {
 
   return (
-    <section className="w-screen h-screen text-center text-white bg-black flex relative overflow-hidden">
+    <section className="h-screen text-center text-white bg-black flex relative overflow-hidden">
       <div className="h-full w-full absolute top-0 bottom-0">
         <video className="h-full w-full object-center object-cover" autoPlay loop muted src="https://res.cloudinary.com/dqmkovsdy/video/upload/v1699912376/tesla/media/videos/x0x9nksw5hf7ph3aatag.mp4"></video>
       </div>
