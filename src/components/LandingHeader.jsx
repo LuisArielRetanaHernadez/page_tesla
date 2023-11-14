@@ -3,7 +3,7 @@ import Logo from "./svg/Logo"
 const LandingHeader = () => {
   
   return (
-    <header className="w-full text-white py-4 px-10 flex items-center justify-between fixed top-0 z-20">
+    <header id="landing-header" className="w-full text-white py-4 px-10 flex items-center justify-between fixed top-0 z-20">
     <div className="flex flex-grow basis-0">
       <Logo className="h-6 w-28 "/>
     </div>
