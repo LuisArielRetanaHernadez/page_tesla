@@ -1,35 +1,11 @@
-import Logo from './components/svg/Logo'
+import LandingHeader from "./components/LandingHeader"
+
 function App() {
 
   return (
     <>
       <mian>
-        <header className="w-full text-white py-4 px-10 flex items-center justify-between fixed top-0 z-20">
-          <div className="flex flex-grow basis-0">
-            <Logo className="h-6 w-28 "/>
-          </div>
-
-          <nav>
-            <ul className="flex text-sm [&>li>a]:inline-block [&>li>a]:font-medium [&>li>a]:px-4 [&>li>a]:py-2">
-              <li><a href="#">Model S</a></li>
-              <li><a href="#">Model 3</a></li>
-              <li><a href="#">Model X</a></li>
-              <li><a href="#">Model Y</a></li>
-              <li><a href="#">PowerAll</a></li>
-              <li><a href="#">Carga</a></li>
-            </ul>
-          </nav>
-
-          <nav className="flex flex-grow justify-end basis-0">
-            <ul className="flex text-sm [&>li>a]:inline-block [&>li>a]:font-medium [&>li>a]:px-4 [&>li>a]:py-2">
-              <li><a href="#">Soporte</a></li>
-              <li><a href="#">Tienda</a></li>
-              <li><a href="#">Menu</a></li>
-            </ul>     
-          </nav>
-
-        </header>
-
+        <LandingHeader />
         <section className="w-screen h-screen text-center text-white bg-black flex relative overflow-hidden">
           <div className="h-full w-full absolute top-0 bottom-0">
             <video className="h-full w-full object-center object-cover" autoPlay loop muted src="https://res.cloudinary.com/dqmkovsdy/video/upload/v1699912376/tesla/media/videos/x0x9nksw5hf7ph3aatag.mp4"></video>
