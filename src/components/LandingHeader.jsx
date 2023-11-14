@@ -1,6 +1,9 @@
+import { useRef } from "react"
 import Logo from "./svg/Logo"
 
 const LandingHeader = () => {
+
+  const menuBackdrop = useRef(null)
   
   return (
     <header id="landing-header" className="w-full text-white py-4 px-10 flex items-center justify-between fixed top-0 z-20">
@@ -26,7 +29,7 @@ const LandingHeader = () => {
         <li><a href="#">Menu</a></li>
       </ul>     
     </nav>
-    <div id="menu-backdrop" className="absolute backdrop-blur-sm rounded-sm 
+    <div ref={menuBackdrop} id="menu-backdrop" className="absolute backdrop-blur-sm rounded-sm 
     left-[var(--move-left) top-[var(--move-top)] w-[var(--width)] h-[var(--height)]
     transition-all duraction-300 ease-in-out"></div>
   </header>
