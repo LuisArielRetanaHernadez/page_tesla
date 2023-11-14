@@ -5,9 +5,21 @@ function App() {
 
   return (
     <>
-      <mian>
-        <LandingHeader />
-        <HeroSection />
+      <LandingHeader />
+      <mian className="h-screen w-screen absolute overflow-auto scrollbar-hidden snap-y snap-mandatory">
+        
+        <div className="snap-center">
+          <HeroSection />
+        </div>
+        <div className="snap-center">
+          <HeroSection />
+        </div>
+        <div className="snap-center">
+          <HeroSection />
+        </div>
+        <div className="snap-center">
+          <HeroSection />
+        </div>
       </mian>
     </>
   )
