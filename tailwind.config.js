@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Gotham SSm A, sans-serif']
+    }
   },
   plugins: [],
 }
