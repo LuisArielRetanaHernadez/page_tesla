@@ -26,7 +26,9 @@ const LandingHeader = () => {
         <li><a href="#">Menu</a></li>
       </ul>     
     </nav>
-
+    <div id="menu-backdrop" className="absolute backdrop-blur-sm rounded-sm 
+    left-[var(--move-left) top-[var(--move-top)] w-[var(--width)] h-[var(--height)]
+    transition-all duraction-300 ease-in-out"></div>
   </header>
   )
 }
