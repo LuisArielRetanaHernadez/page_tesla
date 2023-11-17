@@ -1,5 +1,5 @@
-import HeroSection from "./components/HeroSection"
 import LandingHeader from "./components/LandingHeader"
+import Home from "./pages/Home/Home.page"
 
 function App() {
 
@@ -7,19 +7,7 @@ function App() {
     <>
       <LandingHeader />
       <mian className="h-screen w-screen absolute overflow-auto scrollbar-hidden snap-y snap-mandatory">
-        
-        <div className="snap-center">
-          <HeroSection />
-        </div>
-        <div className="snap-center">
-          <HeroSection />
-        </div>
-        <div className="snap-center">
-          <HeroSection />
-        </div>
-        <div className="snap-center">
-          <HeroSection />
-        </div>
+        <Home />
       </mian>
     </>
   )
